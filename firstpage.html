@@ -1,0 +1,36 @@
+<html>
+    <style>
+    body{
+      font-size: 13pt;
+      font-family: arial;
+    }
+    .select1{
+      font-size: 13pt;
+      font-family: arial;
+      width: 130px;
+      height: 50px;
+    }
+    </style>
+
+<body>
+    <h1>This is a restaurant recommendation platform by 404 Not Found team.</h1>
+    <p></p>
+    <p>Recommend Just For You!</p>
+    <p></p>
+    <form method="POST" action="/search">
+    <select class="select1" name="search">
+    <option value ="User">User</option>
+    <option value ="Restaurant">Restaurant</option>
+    <option value="Schedule">Schedule</option>
+    </select>
+
+    <select class="select1" name="action">
+    <option value ="Create">Create</option>
+    <option value ="Update">Update</option>
+    <option value="Delete">Delete</option>
+    </select>
+        <p></p>
+    <input type="submit" value="Continue">
+  </form>
+</body>
+</html>
