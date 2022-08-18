@@ -6,10 +6,10 @@ import asyncio
 app = Flask(__name__)
 
 
-HOST = 'database-1.cqcjuhcd4k1s.us-east-2.rds.amazonaws.com'
+HOST = ''
 PORT = 3306
 USERNAME = 'admin'
-PASSWORD = 'Abc!1234567890'
+PASSWORD = ''
 DB = 'hw1_db'
 
 # dialect + driver://username:passwor@host:port/database
